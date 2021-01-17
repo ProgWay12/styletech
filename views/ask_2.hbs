@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="ask_header">
+        <span class="second_span">Вопрос </span><span class="first_span">№{{ask.id}}</span>
+    </div>
+    <div class="ask" id={{ask.id}} value={{ask.type_of_ask}}>
+        <p>{{ask.text_ask}}</p>
+    </div>
+</div>
+<div class="first_answer_2">
+    <div class="billet" onclick="chose_answer(this)" id="1">
+        <p>{{ask.answer_1}}</p>
+    </div>
+</div>
+<div class="second_answer_2">
+    <div class="billet" onclick="chose_answer(this)" id="2">
+        <p>{{ask.answer_2}}</p>
+    </div>
+</div>
